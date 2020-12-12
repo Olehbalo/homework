@@ -1,9 +1,9 @@
 #include <iostream>
 #include "Header.h"
-int main()
+int election()
 {
 	Elections a;
 	a.set_candidate();
 	a.get_candidate();
-	a.win();
+	a.winner();
 }

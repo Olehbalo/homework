@@ -15,12 +15,13 @@ public:
 
 class Elections
 {
-	double sum = 0;
+	double sum_of_votes = 0;
 public:
-	Candidate arre[5];
+	int array_size = 5;
+	Candidate applicants[array_size];
 	Elections() {};
 	~Elections() {};
 	void set_candidate();
 	void get_candidate();
-	void win();
+	void winner();
 };
